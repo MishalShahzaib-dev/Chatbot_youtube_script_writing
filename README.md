@@ -71,42 +71,6 @@ No credit card required for free models.
 
 ---
 
-## Running the Project
-
-You need two terminals running at the same time.
-
-**Terminal 1 — Start the backend:**
-```bash
-python app.py
-```
-You will see: `Running on http://127.0.0.1:5000`
-
-**Terminal 2 — Start the frontend server:**
-
-Open a split terminal in VS Code (`Ctrl + Shift + 5`), then run:
-```bash
-cd "C:\Users\YourName\Desktop\Final AI Project"
-python -m http.server 8080
-```
-
-**Open the app in browser:**
-```
-http://127.0.0.1:8080
-```
-
----
-
-## How to Use
-
-1. Open `http://127.0.0.1:8080` in your browser
-2. Paste your OpenRouter API key in the left sidebar
-3. Select a category (Horror, Educational, Shorts, Hooks, SEO)
-4. Type your topic in the input box at the bottom
-5. Press **Enter** to generate the script
-6. Use the **Copy Script** button to copy the output
-
----
-
 ## Troubleshooting
 
 | Problem | Fix |
